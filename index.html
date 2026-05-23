@@ -172,11 +172,9 @@
       <p class="text-center text-gray-500 text-xs uppercase tracking-widest mb-8">Fill out the form to secure your seat
       </p>
 
-      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
-
-        <input type="hidden" name="access_key" value="1fd5d438-0cd2-4804-a3b4-865b4342e68a">
-
-        <input type="hidden" name="redirect" value="https://fx-trading-learn.vercel.app/course.html">
+      <form
+        action="https://script.google.com/macros/s/AKfycbwbHKWkpvZSxXs88MWjxTwyzR8Y7AiFxP0W3YfkmLnSoBbkwtzohkMdvergViMUA70b2g/exec"
+        method="POST" id="registrationForm" class="space-y-4">
 
         <div>
           <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Full Name *</label>
@@ -201,8 +199,8 @@
           <select name="course" required
             class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-gray-400 text-sm focus:outline-none focus:border-red-600 transition">
             <option value="">Select Course</option>
-            <option>Beginner Stock Market Course</option>
-            <option>SMC & Support Resistance Course</option>
+            <option value="Beginner Stock Market Course">Beginner Stock Market Course</option>
+            <option value="SMC & Support Resistance Course">SMC & Support Resistance Course</option>
           </select>
         </div>
 
@@ -211,6 +209,15 @@
           Register Now
         </button>
       </form>
+
+      <script>
+        document.getElementById('registrationForm').addEventListener('submit', function (e) {
+          // Thoda sa ruko taaki data sheet par chala jaye, fir redirect karo
+          setTimeout(function () {
+            window.location.href = "https://fx-trading-learn.vercel.app/course.html";
+          }, 1000);
+        });
+      </script>
     </div>
   </section>
 
