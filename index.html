@@ -172,26 +172,32 @@
       <p class="text-center text-gray-500 text-xs uppercase tracking-widest mb-8">Fill out the form to secure your seat
       </p>
 
-      <form action="register.php" method="POST" class="space-y-6">
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+
+        <input type="hidden" name="access_key" value="1fd5d438-0cd2-4804-a3b4-865b4342e68a">
+
+        <input type="hidden" name="redirect" value="https://fx-trading-learn.vercel.app/course.html">
+
         <div>
-          <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Full Name *</label>
-          <input type="text" name="name" placeholder="Enter Full Name" required
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Full Name *</label>
+          <input type="text" name="name" required placeholder="Enter Full Name"
             class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Email Address *</label>
-            <input type="email" name="email" placeholder="Enter Email Address" required
-              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Phone Number *</label>
-            <input type="text" name="phone" placeholder="Enter Phone Number" required
-              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
-          </div>
-        </div>
+
         <div>
-          <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Select Course *</label>
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Email Address *</label>
+          <input type="email" name="email" required placeholder="Enter Email Address"
+            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Phone Number *</label>
+          <input type="tel" name="phone" required placeholder="Enter Phone Number"
+            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Select Course *</label>
           <select name="course" required
             class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-gray-400 text-sm focus:outline-none focus:border-red-600 transition">
             <option value="">Select Course</option>
@@ -199,11 +205,12 @@
             <option>SMC & Support Resistance Course</option>
           </select>
         </div>
+
         <button type="submit"
-          class="w-full bg-red-600 hover:bg-red-700 text-white font-bold text-sm uppercase tracking-widest py-4 rounded transition transform hover:-translate-y-0.5">
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-wider py-3.5 rounded-lg transition mt-2 text-sm">
           Register Now
         </button>
-      </form>
+        </form>
     </div>
   </section>
 
