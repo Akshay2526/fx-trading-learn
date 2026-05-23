@@ -28,230 +28,260 @@
         onerror="this.style.display='none'">
       <span class="text-xl font-black tracking-wider text-white">STRATUM <span class="text-red-600">FX</span></span>
     </div>
-    <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide uppercase text-gray-400">
-      <a href="course.html" class="hover:text-white transition">Course</a>
-      <a href="about.html" class="hover:text-white transition">About</a>
-      <a href="#courses" class="hover:text-white transition">Programs</a>
-      <a href="#register" class="hover:text-white transition">Register</a>
-      <a href="#contact" class="hover:text-white transition">Contact</a>
-    </div>
-    <a href="#register"
-      class="bg-red-600 hover:bg-red-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded transition">Register
-      Now</a>
-  </nav>
+    <nav
+      class="border-b border-gray-900 bg-black/80 backdrop-blur-md fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="Statum fx logo.png" alt="Stratum FX Logo" class="h-10 w-auto object-contain"
+          onerror="this.style.display='none'">
+        <span class="text-xl font-black tracking-wider text-white">STRATUM <span class="text-red-600">FX</span></span>
+      </div>
 
-  <section
-    class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
-    <div class="absolute top-1/4 right-0 w-72 h-72 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide uppercase text-gray-400">
+        <a href="course.html" class="hover:text-white transition">Course</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="#courses" class="hover:text-white transition">Programs</a>
+        <a href="#register" class="hover:text-white transition">Register</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </div>
 
-    <div class="max-w-2xl text-center md:text-left z-10">
-      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-none mb-6">
-        Best Forex Trading Coaching <br class="hidden md:inline"><span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">in Dehradun</span>
-      </h1>
-      <p class="text-gray-400 text-base md:text-lg mb-8 leading-relaxed">
-        Learn trading with the best Forex Trading Coaching in Dehradun. Master Smart Money Concepts (SMC), price action,
-        technical analysis, market structure, liquidity, order blocks, and risk management through practical training
-        and expert guidance with Stratum FX.
-      </p>
-      <div class="space-y-4 md:space-y-0 md:space-x-4">
+      <div class="flex items-center space-x-4">
         <a href="#register"
-          class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold text-sm uppercase tracking-widest px-8 py-4 rounded shadow-lg shadow-red-600/20 transition transform hover:-translate-y-0.5">
-          Register Now @ ₹99
-        </a>
-      </div>
-    </div>
+          class="bg-red-600 hover:bg-red-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded transition">Register
+          Now</a>
 
-    <div class="mt-12 md:mt-0 relative w-full md:w-1/2 flex justify-center md:justify-end">
-      <div
-        class="border border-gray-900 bg-gradient-to-b from-gray-950 to-black p-6 rounded-2xl w-full max-w-md shadow-2xl relative overflow-hidden group">
-        <div class="flex justify-between items-center mb-6">
-          <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">Live Forex Grid</span>
-          <span class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+        <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu"
+      class="hidden absolute top-16 left-0 w-full bg-black border-b border-gray-800 flex flex-col p-6 space-y-4 md:hidden z-40 text-center">
+      <a href="course.html" class="text-gray-400 hover:text-white block">Course</a>
+      <a href="about.html" class="text-gray-400 hover:text-white block">About</a>
+      <a href="#courses" class="text-gray-400 hover:text-white block">Programs</a>
+      <a href="#register" class="text-gray-400 hover:text-white block">Register</a>
+      <a href="#contact" class="text-gray-400 hover:text-white block">Contact</a>
+    </div>
+    <section
+      class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="absolute top-1/4 right-0 w-72 h-72 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-2xl text-center md:text-left z-10">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-none mb-6">
+          Best Forex Trading Coaching <br class="hidden md:inline"><span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">in Dehradun</span>
+        </h1>
+        <p class="text-gray-400 text-base md:text-lg mb-8 leading-relaxed">
+          Learn trading with the best Forex Trading Coaching in Dehradun. Master Smart Money Concepts (SMC), price
+          action,
+          technical analysis, market structure, liquidity, order blocks, and risk management through practical training
+          and expert guidance with Stratum FX.
+        </p>
+
+      </div>
+
+      <div class="mt-12 md:mt-0 relative w-full md:w-1/2 flex justify-center md:justify-end">
+        <div
+          class="border border-gray-900 bg-gradient-to-b from-gray-950 to-black p-6 rounded-2xl w-full max-w-md shadow-2xl relative overflow-hidden group">
+          <div class="flex justify-between items-center mb-6">
+            <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">Live Forex Grid</span>
+            <span class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+          </div>
+          <div class="space-y-4">
+            <p class="text-xs text-gray-400 leading-relaxed">
+              Gain practical knowledge of currency trading, global investing, technical analysis, candlestick patterns,
+              risk management, and portfolio building through expert-led training.
+            </p>
+            <div
+              class="h-24 bg-gradient-to-t from-red-900/20 to-transparent border-b-2 border-red-600 rounded-lg relative">
+              <svg class="absolute bottom-0 w-full h-16 text-red-500" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0,90 Q20,40 40,70 T80,20 T100,50" fill="none" stroke="currentColor" stroke-width="3"></path>
+              </svg>
+            </div>
+          </div>
         </div>
-        <div class="space-y-4">
-          <p class="text-xs text-gray-400 leading-relaxed">
-            Gain practical knowledge of currency trading, global investing, technical analysis, candlestick patterns,
-            risk management, and portfolio building through expert-led training.
-          </p>
+      </div>
+    </section>
+
+    <section class="px-6 py-12 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
+        <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-video"></i></div>
+        <h3 class="text-xl font-bold mb-2">Live Classes</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Experience our live currency trading classes to engage with
+          experts, evaluate global market data, and develop effective strategies.</p>
+      </div>
+      <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
+        <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3 class="text-xl font-bold mb-2">Learn From Scratch</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Start your forex journey from scratch and gain the skills you
+          need to navigate the international financial markets confidently.</p>
+      </div>
+      <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
+        <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-headset"></i></div>
+        <h3 class="text-xl font-bold mb-2">3 Months Support</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Our 3-month support program gives you the guidance, doubt
+          sessions, and resources to build your confidence.</p>
+      </div>
+    </section>
+
+    <section id="about" class="bg-gray-950/30 border-y border-gray-900 px-6 py-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-red-500 text-xs font-bold uppercase tracking-widest block mb-2">Who We Are</span>
+        <h2 class="text-3xl font-extrabold uppercase tracking-wider mb-6">About Stratum FX</h2>
+        <p class="text-gray-400 leading-relaxed max-w-2xl mx-auto text-sm md:text-base">
+          Stratum FX provides professional forex market training with live practical sessions. Join a trusted Forex
+          Trading Coaching in Dehradun program to learn real-world trading skills, master currency pairs, and build
+          confidence in your financial journey.
+        </p>
+      </div>
+    </section>
+
+    <section id="courses" class="px-6 py-20 max-w-7xl mx-auto">
+      <div class="text-center md:text-left mb-12">
+        <span class="text-red-500 text-xs font-bold uppercase tracking-widest block mb-2">Programs</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Our Premium Courses</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div
+          class="border border-gray-900 bg-gray-950 rounded-xl overflow-hidden group hover:border-red-600/30 transition duration-300 flex flex-col justify-between">
           <div
-            class="h-24 bg-gradient-to-t from-red-900/20 to-transparent border-b-2 border-red-600 rounded-lg relative">
-            <svg class="absolute bottom-0 w-full h-16 text-red-500" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path d="M0,90 Q20,40 40,70 T80,20 T100,50" fill="none" stroke="currentColor" stroke-width="3"></path>
-            </svg>
+            class="h-44 bg-gradient-to-br from-gray-900 to-red-950 flex items-center justify-center p-6 border-b border-gray-900">
+            <i
+              class="fa-solid fa-chart-line text-4xl text-red-600/40 group-hover:scale-110 transition duration-300"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">Beginner Stock Market Course</h4>
+            <p class="text-gray-400 text-xs leading-relaxed mb-6">Master basic market structures, types of charts,
+              candlestick patterns, and essential rules of investing safely from scratch.</p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-900/50">
+              <span class="text-xl font-black text-white">₹9,999</span>
+              <a href="#register"
+                class="text-xs bg-gray-900 hover:bg-red-600 text-white font-bold px-5 py-2.5 rounded transition">Enroll
+                Now</a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="px-6 py-12 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-    <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
-      <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-video"></i></div>
-      <h3 class="text-xl font-bold mb-2">Live Classes</h3>
-      <p class="text-gray-400 text-sm leading-relaxed">Experience our live currency trading classes to engage with
-        experts, evaluate global market data, and develop effective strategies.</p>
-    </div>
-    <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
-      <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-graduation-cap"></i></div>
-      <h3 class="text-xl font-bold mb-2">Learn From Scratch</h3>
-      <p class="text-gray-400 text-sm leading-relaxed">Start your forex journey from scratch and gain the skills you
-        need to navigate the international financial markets confidently.</p>
-    </div>
-    <div class="border border-gray-900 bg-gray-950/40 p-8 rounded-xl hover:border-red-600/30 transition duration-300">
-      <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-headset"></i></div>
-      <h3 class="text-xl font-bold mb-2">3 Months Support</h3>
-      <p class="text-gray-400 text-sm leading-relaxed">Our 3-month support program gives you the guidance, doubt
-        sessions, and resources to build your confidence.</p>
-    </div>
-  </section>
-
-  <section id="about" class="bg-gray-950/30 border-y border-gray-900 px-6 py-20">
-    <div class="max-w-4xl mx-auto text-center">
-      <span class="text-red-500 text-xs font-bold uppercase tracking-widest block mb-2">Who We Are</span>
-      <h2 class="text-3xl font-extrabold uppercase tracking-wider mb-6">About Stratum FX</h2>
-      <p class="text-gray-400 leading-relaxed max-w-2xl mx-auto text-sm md:text-base">
-        Stratum FX provides professional forex market training with live practical sessions. Join a trusted Forex
-        Trading Coaching in Dehradun program to learn real-world trading skills, master currency pairs, and build
-        confidence in your financial journey.
-      </p>
-    </div>
-  </section>
-
-  <section id="courses" class="px-6 py-20 max-w-7xl mx-auto">
-    <div class="text-center md:text-left mb-12">
-      <span class="text-red-500 text-xs font-bold uppercase tracking-widest block mb-2">Programs</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Our Premium Courses</h2>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-      <div
-        class="border border-gray-900 bg-gray-950 rounded-xl overflow-hidden group hover:border-red-600/30 transition duration-300 flex flex-col justify-between">
         <div
-          class="h-44 bg-gradient-to-br from-gray-900 to-red-950 flex items-center justify-center p-6 border-b border-gray-900">
-          <i class="fa-solid fa-chart-line text-4xl text-red-600/40 group-hover:scale-110 transition duration-300"></i>
-        </div>
-        <div class="p-6">
-          <h4 class="text-xl font-bold mb-2">Beginner Stock Market Course</h4>
-          <p class="text-gray-400 text-xs leading-relaxed mb-6">Master basic market structures, types of charts,
-            candlestick patterns, and essential rules of investing safely from scratch.</p>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-900/50">
-            <span class="text-xl font-black text-white">₹9,999</span>
-            <a href="#register"
-              class="text-xs bg-gray-900 hover:bg-red-600 text-white font-bold px-5 py-2.5 rounded transition">Enroll
-              Now</a>
+          class="border border-red-900/30 bg-gray-950 rounded-xl overflow-hidden group hover:border-red-600/30 transition duration-300 flex flex-col justify-between shadow-lg shadow-red-900/5">
+          <div
+            class="h-44 bg-gradient-to-br from-gray-900 to-red-950 flex items-center justify-center p-6 border-b border-gray-900">
+            <i
+              class="fa-solid fa-wand-magic-sparkles text-4xl text-red-600/40 group-hover:scale-110 transition duration-300"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">SMC & Support Resistance Course</h4>
+            <p class="text-gray-400 text-xs leading-relaxed mb-6">Trade like institutions. Learn advanced Support &
+              Resistance zones combined with institutional order blocks and liquidity hunts.</p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-900/50">
+              <span class="text-xl font-black text-white">₹19,999</span>
+              <a href="#register"
+                class="text-xs bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2.5 rounded transition">Join
+                Academy</a>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div
-        class="border border-red-900/30 bg-gray-950 rounded-xl overflow-hidden group hover:border-red-600/30 transition duration-300 flex flex-col justify-between shadow-lg shadow-red-900/5">
-        <div
-          class="h-44 bg-gradient-to-br from-gray-900 to-red-950 flex items-center justify-center p-6 border-b border-gray-900">
-          <i
-            class="fa-solid fa-wand-magic-sparkles text-4xl text-red-600/40 group-hover:scale-110 transition duration-300"></i>
-        </div>
-        <div class="p-6">
-          <h4 class="text-xl font-bold mb-2">SMC & Support Resistance Course</h4>
-          <p class="text-gray-400 text-xs leading-relaxed mb-6">Trade like institutions. Learn advanced Support &
-            Resistance zones combined with institutional order blocks and liquidity hunts.</p>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-900/50">
-            <span class="text-xl font-black text-white">₹19,999</span>
-            <a href="#register"
-              class="text-xs bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2.5 rounded transition">Join
-              Academy</a>
+    <section id="register" class="px-6 py-12 max-w-3xl mx-auto">
+      <div class="border border-gray-900 bg-gradient-to-b from-gray-950 to-black p-8 md:p-12 rounded-2xl shadow-xl">
+        <h3 class="text-2xl font-black text-center mb-2 tracking-wide text-white">COURSE REGISTRATION</h3>
+        <p class="text-center text-gray-500 text-xs uppercase tracking-widest mb-8">Fill out the form to secure your
+          seat
+        </p>
+
+        <form
+          action="https://script.google.com/macros/s/AKfycbwbHKWkpvZSxXs88MWjxTwyzR8Y7AiFxP0W3YfkmLnSoBbkwtzohkMdvergViMUA70b2g/exec"
+          method="POST" id="registrationForm" class="space-y-4">
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Full Name *</label>
+            <input type="text" name="name" required placeholder="Enter Full Name"
+              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
           </div>
-        </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Email Address *</label>
+            <input type="email" name="email" required placeholder="Enter Email Address"
+              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Phone Number *</label>
+            <input type="tel" name="phone" required placeholder="Enter Phone Number"
+              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Select Course *</label>
+            <select name="course" required
+              class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-gray-400 text-sm focus:outline-none focus:border-red-600 transition">
+              <option value="">Select Course</option>
+              <option value="Beginner Stock Market Course">Beginner Stock Market Course</option>
+              <option value="SMC & Support Resistance Course">SMC & Support Resistance Course</option>
+            </select>
+          </div>
+
+          <button type="submit"
+            class="w-full bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-wider py-3.5 rounded-lg transition mt-2 text-sm">
+            Register Now
+          </button>
+        </form>
+
+        <script>
+          document.getElementById('registrationForm').addEventListener('submit', function (e) {
+            // Thoda sa ruko taaki data sheet par chala jaye, fir redirect karo
+            setTimeout(function () {
+              window.location.href = "https://fx-trading-learn.vercel.app/course.html";
+            }, 1000);
+          });
+        </script>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="register" class="px-6 py-12 max-w-3xl mx-auto">
-    <div class="border border-gray-900 bg-gradient-to-b from-gray-950 to-black p-8 md:p-12 rounded-2xl shadow-xl">
-      <h3 class="text-2xl font-black text-center mb-2 tracking-wide text-white">COURSE REGISTRATION</h3>
-      <p class="text-center text-gray-500 text-xs uppercase tracking-widest mb-8">Fill out the form to secure your seat
-      </p>
+    <section id="contact" class="px-6 py-20 max-w-3xl mx-auto border-t border-gray-900">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold tracking-wide">Contact Us</h3>
+        <p class="text-gray-500 text-xs uppercase tracking-widest mt-1">Have queries? Drop us a message</p>
+      </div>
 
-      <form
-        action="https://script.google.com/macros/s/AKfycbwbHKWkpvZSxXs88MWjxTwyzR8Y7AiFxP0W3YfkmLnSoBbkwtzohkMdvergViMUA70b2g/exec"
-        method="POST" id="registrationForm" class="space-y-4">
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4 max-w-lg mx-auto">
 
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Full Name *</label>
-          <input type="text" name="name" required placeholder="Enter Full Name"
-            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
-        </div>
+        <input type="hidden" name="access_key" value="1fd5d438-0cd2-4804-a3b4-865b4342e68a">
 
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Email Address *</label>
-          <input type="email" name="email" required placeholder="Enter Email Address"
-            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
-        </div>
+        <input type="hidden" name="redirect" value="https://fx-trading-learn.vercel.app/index.html">
 
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Phone Number *</label>
-          <input type="tel" name="phone" required placeholder="Enter Phone Number"
-            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-red-600 transition">
-        </div>
+        <input type="text" name="name" placeholder="Your Name" required
+          class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600">
 
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Select Course *</label>
-          <select name="course" required
-            class="w-full bg-gray-900/50 border border-gray-800 rounded-lg px-4 py-3 text-gray-400 text-sm focus:outline-none focus:border-red-600 transition">
-            <option value="">Select Course</option>
-            <option value="Beginner Stock Market Course">Beginner Stock Market Course</option>
-            <option value="SMC & Support Resistance Course">SMC & Support Resistance Course</option>
-          </select>
-        </div>
+        <input type="email" name="email" placeholder="Your Email" required
+          class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600">
+
+        <textarea name="message" rows="5" placeholder="Your Message" required
+          class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600"></textarea>
 
         <button type="submit"
-          class="w-full bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-wider py-3.5 rounded-lg transition mt-2 text-sm">
-          Register Now
-        </button>
+          class="w-full bg-gray-950 hover:bg-gray-900 text-white text-xs font-bold uppercase tracking-wider py-3 border border-gray-800 rounded transition">Send
+          Message</button>
       </form>
+    </section>
 
-      <script>
-        document.getElementById('registrationForm').addEventListener('submit', function (e) {
-          // Thoda sa ruko taaki data sheet par chala jaye, fir redirect karo
-          setTimeout(function () {
-            window.location.href = "https://fx-trading-learn.vercel.app/course.html";
-          }, 1000);
-        });
-      </script>
-    </div>
-  </section>
+    <footer class="border-t border-gray-900 py-8 text-center text-xs text-gray-600 tracking-wider">
+      <p>© 2022 Stratum FX. All rights reserved.</p>
+    </footer>
+    <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
 
-  <section id="contact" class="px-6 py-20 max-w-3xl mx-auto border-t border-gray-900">
-    <div class="text-center mb-8">
-      <h3 class="text-2xl font-bold tracking-wide">Contact Us</h3>
-      <p class="text-gray-500 text-xs uppercase tracking-widest mt-1">Have queries? Drop us a message</p>
-    </div>
-
-    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4 max-w-lg mx-auto">
-
-      <input type="hidden" name="access_key" value="1fd5d438-0cd2-4804-a3b4-865b4342e68a">
-
-      <input type="hidden" name="redirect" value="https://fx-trading-learn.vercel.app/index.html">
-
-      <input type="text" name="name" placeholder="Your Name" required
-        class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600">
-
-      <input type="email" name="email" placeholder="Your Email" required
-        class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600">
-
-      <textarea name="message" rows="5" placeholder="Your Message" required
-        class="w-full bg-gray-900/40 border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-600"></textarea>
-
-      <button type="submit"
-        class="w-full bg-gray-950 hover:bg-gray-900 text-white text-xs font-bold uppercase tracking-wider py-3 border border-gray-800 rounded transition">Send
-        Message</button>
-    </form>
-  </section>
-
-  <footer class="border-t border-gray-900 py-8 text-center text-xs text-gray-600 tracking-wider">
-    <p>© 2026 Stratum FX. All rights reserved.</p>
-  </footer>
-
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
 </body>
 
 </html>
